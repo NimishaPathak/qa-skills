@@ -62,3 +62,13 @@ Follow these strictly when creating the RTM:
    - Total Bugs found
    - Modules with no bugs
    - Modules with failed test cases
+
+## Formatting Requirements
+When generating the xlsx file apply these formats:
+1. Header row - bold, blue background, white text
+2. Auto-fit all column widths
+3. Freeze top row
+4. Add borders to all cells
+5. Wrap text in Requirement Description column
+6. Center align: Requirement ID, Module, TC ID, 
+   Execution Status, Bug ID, Bug Severity columns
